@@ -257,7 +257,7 @@
 
     {{-- Gallery --}}
 
-    <section class="bg-udark py-10  sm:py-20">
+    <section class="bg-udark py-10  sm:py-20 hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-0">
             <div class="flex gap-4">
                 <div class="basis-2/5">
@@ -422,6 +422,26 @@
             </div>
         </div>
     </section>
+    {{-- Marquee --}}
+    <section class="marwueesec">
+        <div class="marquee">
+            <ul class="marquee-content">
+              <li><span class="iconify text-2xl" data-icon="solar:add-circle-broken"></span></li>
+              <li><i class="fab fa-codepen"></i></li>
+              <li><i class="fab fa-free-code-camp"></i></li>
+              <li><i class="fab fa-dev"></i></li>
+              <li><i class="fab fa-react"></i></li>
+              <li><i class="fab fa-vuejs"></i></li>
+              <li><i class="fab fa-angular"></i></li>
+              <li><i class="fab fa-node"></i></li>
+              <li><i class="fab fa-wordpress"></i></li>
+              <li><i class="fab fa-aws"></i></li>
+              <li><i class="fab fa-docker"></i></li>
+              <li><i class="fab fa-android"></i></li>
+            </ul>
+          </div>
+
+    </section>
 
     {{-- Script --}}
     <x-slot name="script">
@@ -517,6 +537,21 @@
                 e.preventDefault();
                 $('#imagepop').addClass('hidden');
             });
+        </script>
+
+
+        <script>
+            $(document).ready(function() {
+        const marqueeContent = $("ul.marquee-content");
+        const marqueeElementsDisplayed = getComputedStyle(document.documentElement).getPropertyValue("--marquee-elements-displayed");
+
+        $("body").css("--marquee-elements", marqueeContent.children().length);
+
+        for (let i = 0; i < marqueeElementsDisplayed; i++) {
+            marqueeContent.append(marqueeContent.children().eq(i).clone());
+        }
+        });
+
         </script>
 
     </x-slot>

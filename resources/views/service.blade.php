@@ -1,8 +1,16 @@
 <x-guest-layout>
-    <section class="mt-16">
-        <div class=" py-10 md:py-16 lg:py-24" style="background-image: url('./img/about-hero.jpg');">
-            <div class=" ">
-                <h2 class="text-3xl lg:text-7xl text-white font-bold uppercase text-center">Services</h2>
+
+    <section class="mt-28">
+        <div class=" py-10 sm:py-24  bg-no-repeat bg-cover bg-center min-h-[300px] bg-udark/80 bg-blend-multiply" style="background-image: url({{asset('img/gallery_hero.jpg') }});">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-3xl lg:text-7xl text-white font-bold uppercase text-center sm:text-left">Services</h2>
+                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">
+                    Curabitur sed facilisis erat. Vestibulum
+                    pharetra
+                    eros
+                    eget fringilla porttitor. <br>
+                    on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.
+                </p>
             </div>
         </div>
     </section>
@@ -10,17 +18,7 @@
     <!-- ===============Service-Start=========== -->
     <section>
         <div class=" max-w-7xl mx-auto pt-10 pb-10 lg:pb-20 px-3 lg:px-0">
-            {{-- <div class="solution_text">
-                <p class=" text-lg font-normal text-uorange  text-center ">Our Solutions</p>
-            </div> --}}
-            <div class="">
-                <h2 class=" text-2xl lg:text-4.5xl text-udark font-bold text-center uppercase my-4">Services</h2>
-                <p class=" text-base font-normal text-center text-udark">Curabitur sed facilisis erat. Vestibulum
-                    pharetra
-                    eros
-                    eget fringilla porttitor. <br>
-                    on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
-            </div>
+
             <div class=" mt-7">
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 gap-3">
 

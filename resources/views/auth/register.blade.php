@@ -1,13 +1,9 @@
 <x-guest-layout>
     <!-- ==============Team start========== -->
     <section>
-        <div class=" bg-lgreen pb-24  pt-10  sm:py-44 px-3 sm:px-0 ">
-            <div class="max-w-7xl mx-auto   px-3 md:px-0 slider_gap">
-                <div class="grid sm:grid-cols-2 gap-5 sm:gap-20">
-                    <div class="hidden sm:block">
-                        <img class=" w-full" src="./img/singin.jpg" alt="Signin cover">
-                    </div>
-                    <div class="pt-16 sm:pt-0">
+        <div class=" pb-24  pt-10  sm:py-44 px-3 sm:px-0 ">
+            <div class="max-w-2xl mx-auto   px-3 md:px-0 slider_gap">
+                    <div class=" bg-white px-4 rounded py-8">
                         <div class="">
                             <h2 class="text-2xl sm:text-4.5xl text-nblue font-bold text-center uppercase">Welcome
                             </h2>
@@ -58,26 +54,25 @@
                                 <div class=" mt-5 flex justify-between items-center">
                                     <div class=" flex items-center">
                                         <div class=" mr-2">
-                                            <input class="appearance-none checked:bg-dgreen focus:outline-none focus:ring-0" type="checkbox" required>
+                                            <input class="appearance-none checked:bg-uorange focus:outline-none focus:ring-0" type="checkbox" required>
                                         </div>
                                         <div class="">
-                                            <p class="text-sm md:text-base text-nblue">I have accepted to the <a href="termscondition.html" class=" text-dgreen">terms and conditions</a></p>
+                                            <p class="text-sm md:text-base text-nblue">I have accepted to the <a href="termscondition.html" class=" text-uorange">terms and conditions</a></p>
                                         </div>
                                     </div>
 
                                 </div>
 
                                 <div class="mt-12">
-                                    <button type="submit" class=" text-white w-full bg-dgreen py-2.5 px-5 text-base font-bold tracking-wider rounded-md">SIGN
+                                    <button type="submit" class=" text-white w-full bg-uorange py-2.5 px-5 text-base font-bold tracking-wider rounded-md">SIGN
                                         UP</button>
                                 </div>
                             </form>
                         </div>
                         <div class="mt-3">
-                            <p class=" text-base text-nblue text-center">Already Have an account? <a href="{{ route('login') }}" class=" text-dgreen"> Sign In</a></p>
+                            <p class=" text-base text-nblue text-center">Already Have an account? <a href="{{ route('login') }}" class=" text-uorange"> Sign In</a></p>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>

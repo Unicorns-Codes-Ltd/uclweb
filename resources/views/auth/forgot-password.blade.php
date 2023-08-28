@@ -1,8 +1,8 @@
 <x-guest-layout>
 
     <section>
-        <div class=" bg-lgreen pb-24  pt-10  sm:py-44 px-3 sm:px-0 ">
-            <div class="max-w-7xl bg-white p-6 mx-auto rounded-md">
+        <div class=" pb-24  pt-10  sm:py-44 px-3 sm:px-0 ">
+            <div class="max-w-2xl bg-white p-6 mx-auto rounded-md">
                 <div class="mb-4 text-sm text-gray-600">
                     {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
                 </div>
@@ -22,7 +22,7 @@
 
                     <div class="flex items-center justify-end mt-4">
                         <button type="submit"
-                                            class=" text-white uppercase bg-dgreen py-2.5 px-5 text-base font-bold tracking-wider rounded-md">{{ __('Email Password Reset Link') }}</button>
+                                            class=" text-white uppercase bg-uorange py-2.5 px-5 text-base font-bold tracking-wider rounded-md">{{ __('Email Password Reset Link') }}</button>
                     </div>
                 </form>
             </div>
