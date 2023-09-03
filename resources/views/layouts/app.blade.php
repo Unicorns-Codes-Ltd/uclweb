@@ -36,7 +36,7 @@
     </div>
 
 
-    <div class="min-h-screen bg-uorange/20 flex-grow print:w-full">
+    <div class="min-h-screen bg-ulorange flex-grow print:w-full">
         @include('layouts.navigation')
         <!-- Page Content -->
         <main class="relative print:w-full">

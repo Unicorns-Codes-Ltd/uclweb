@@ -18,13 +18,13 @@
                         <span class="text-ugray">Forging</span> the <br> future <span
                             class=" text-uviolet">together</span>
                     </h1>
-                    <x-primary-button class="sm:mt-16 mt-52">Get Solution</x-primary-button>
+                    <a href="{{route('service')}}">
+                        <x-primary-button class="sm:mt-16 mt-52">Get Solution</x-primary-button>
+                    </a>
                 </div>
                 {{-- paragraph --}}
                 <div class="hidden sm:flex sm:flex-col items-end">
-                    <p class="w-1/2">Tech & Creativity Hub: Industrial Attachment, Software Dev, Web & Graphic Design,
-                        Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic & UI/UX, Digital
-                        Marketing. Join Unicorns Codes!</p>
+                    <p class="w-1/2"><span class="font-semibold">Tech & Creativity Hub:</span> Software Development, Web Development, Game Development, Graphic Design, Digital Marketing <span class="font-semibold">Courses:</span> Industrial Attachment, Game Development, Web Development, Graphic & UI/UX Design, Digital Marketing</p>
                     <img src="{{ asset('images/arrow1.svg') }}" alt="" srcset="" class="mt-4 mr-10 h-28">
                 </div>
             </div>
@@ -41,11 +41,11 @@
                     <div class="flex sm:flex-col gap-8">
 
                         <div class="">
-                            <p class="text-uviolet text-7xl font-bold"><span class="text-usweet">17.9</span>K</p>
+                            <p class="text-uviolet text-7xl font-bold"><span class="text-usweet">112</span></p>
                             <p class="text-ugray">Products Done</p>
                         </div>
                         <div class="">
-                            <p class="text-uviolet text-7xl font-bold"><span class="text-ublue">172</span>K</p>
+                            <p class="text-uviolet text-7xl font-bold"><span class="text-ublue">107</span></p>
                             <p class="text-ugray">Projects Live</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
     </section>
 
     {{-- client slider --}}
-    <section class="bg-ugray/10">
+    <section class="bg-ulorange">
         <div class="max-w-7xl mx-auto">
             <div class="marquee py-4 sm:py-10 ">
                 <div class="marquee-content px-6 sm:px-14 ">
@@ -131,7 +131,7 @@
                 <p class=" text-lg font-normal text-uorange  text-center ">Our Solutions</p>
             </div> --}}
             <div class="sm:basis-2/5">
-                <h2 class="text-2xl sm:text-6xl text-udark font-bold text-center sm:text-left uppercase">Services</h2>
+                <h2 class="text-2xl sm:text-6xl text-udark font-bold text-center sm:text-left uppercase mb-4">Services</h2>
                 <div class="sm:flex">
                     <div class="hidden sm:block relative overflow-hidden pr-4 w-24">
                         <img src="{{ asset('images/elements/line.png') }}" alt="" srcset=""
@@ -160,9 +160,7 @@
                 </div>
             </div>
             <div class="basis-3/5 px-4 sm:px-0">
-                <p class="hidden sm:block text-base font-normal text-ugray">Tech & Creativity Hub: Industrial Attachment, Software Dev,
-                    Web & Graphic Design, Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic
-                    & UI/UX, Digital Marketing. Join Unicorns Codes!</p>
+                <p class="hidden sm:block text-base font-normal text-ugray">We offer a comprehensive range of services including Graphic Design, UI/UX Design, Web Development, and Digital Marketing. Our expertise in these areas empowers businesses to thrive in the digital landscape, from creating visually compelling designs to developing user-friendly websites and executing strategic digital marketing campaigns</p>
                 <div class="h-full" id="tabs-content">
 
                     @foreach ($services as $service)
@@ -178,14 +176,12 @@
 
     {{-- Course --}}
     <section>
-        <div class=" bg-usweet/20 pt-10 sm:pt-20 pb-10 sm:pb-20">
+        <div class=" bg-ulorange pt-10 sm:pt-20 pb-10 sm:pb-20">
             <div class="max-w-7xl ml-auto mr-auto sm:ml-[10vw] sm:mr-0">
                 <div class="flex flex-col sm:flex-row sm:gap-10">
                     <h2 class="basis-1/5 text-2xl sm:text-6xl text-udark font-bold text-center sm:text-left uppercase  my-4">COURSES
                     </h2>
-                    <p class="hidden sm:block basis-3/5 text-ugray">Tech & Creativity Hub: Industrial Attachment, Software Dev, Web &
-                        Graphic Design, Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic &
-                        UI/UX, Digital Marketing. Join Unicorns Codes!</p>
+                    <p class="hidden sm:block basis-3/5 text-ugray">We specialize in skill development courses tailored to your career aspirations. Our offerings encompass Graphic Design, UI/UX Design, Web Development, Digital Marketing, and an invaluable Industrial Attachment program. These courses are meticulously designed to equip you with practical skills and industry insights, ensuring your readiness to excel in the dynamic world of technology and design.</p>
                     <div class="basis-1/5 flex justify-center sm:justify-start">
                         <a href="{{ route('cource') }}">
                             <button
@@ -227,11 +223,11 @@
     </section>
 
     {{-- Testimonial --}}
-    <section class="py-10 sm:py-20">
+    <section class="py-10 sm:py-20 bg-[#FFEDD5]">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between gap-4 px-4 sm:px-0">
             <div class="basis-1/2">
                 <h2 class="font-medium text-2xl text-center sm:text-left sm:text-6xl text-udark">What People Say <br>About Us!</h2>
-                <p class="mt-4 text-ugray text-center sm:text-left">I am so glad I went with my heart and not my head. God bless</p>
+                <p class="hidden mt-4 text-ugray text-center sm:text-left">I am so glad I went with my heart and not my head. God bless</p>
             </div>
             <div class="basis-1/2 owl-theme">
                 {{-- item --}}
@@ -239,15 +235,12 @@
                     <div class="flex flex-col sm:flex-row items-center sm:justify-start  sm:items-end gap-4 text-ugray">
                         <div class="userpp w-24 aspect-square rounded-full bg-no-repeat bg-cover bg-center" style="background-image: url({{asset('images/man.jpg')}})"></div>
                         <div class="text-center sm:text-left">
-                            <h3>John Smith</h3>
-                            <p>CEO</p>
+                            <h3 class="font-semibold">Mark M. Coulston </h3>
+                            <p>Managing Director</p>
                         </div>
                     </div>
                     <div class="mt-4 text-ugray">
-                        <p class="text-center sm:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem laborum quis
-                            architecto quo exercitationem rem similique sit obcaecati consequuntur at non, repudiandae,
-                            qui porro rerum fugit? Architecto provident quae quibusdam deserunt nisi autem obcaecati
-                            laborum accusantium libero alias? Beatae!</p>
+                        <p class="text-center sm:text-left">I would recommend Unicorns Codes Service for anyone trying to get the word out about their business. It has saved me so much time!</p>
                     </div>
                 </div>
             </div>
@@ -255,85 +248,6 @@
     </section>
 
 
-    {{-- Gallery --}}
-
-    <section class="bg-udark py-10  sm:py-20 hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-0">
-            <div class="flex gap-4">
-                <div class="basis-2/5">
-                    <h2 class="font-medium text-2xl sm:text-6xl text-white">Gallery</h2>
-                </div>
-
-                <div class="basis-3/5 hidden sm:block">
-                    <p class="text-white text-center sm:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, deserunt.
-                        Recusandae fuga aperiam assumenda asperiores iste quasi itaque cumque voluptate esse eligendi.
-                        Error, vitae! Exercitationem a veniam eligendi eum. Obcaecati facere dolorum eum, at accusantium
-                        id maiores eligendi assumenda est!</p>
-                </div>
-            </div>
-            {{-- Images --}}
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-                    </div>
-                </div>
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
-                    </div>
-                </div>
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     {{-- Contact us --}}
     <section class="bg-white">
@@ -355,7 +269,7 @@
                             class="mt-4 sm:mt-0 flex justify-center items-center text-ublue gap-4 px-20 py-5 border border-ugray rounded-md hover:border-ublue hover:text-white hover:bg-ublue transition duration-150 ease-in-out "><span
                                 class="iconify text-xl" data-icon="mdi:email"></span>info@unicornscodes.com</a>
                     </div>
-                    <div class="hidden sm:flex justify-between items-center gap-4 mt-10">
+                    <div class="hidden  justify-between items-center gap-4 mt-10">
                         <div class="text-center sm:basis-1/2">
                             <p class="text-ugray text-center">Our support team will get back to in 48-H <br>
                                 during standard business hours.</p>
@@ -412,7 +326,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="flex justify-end items-center gap-4 mt-10">
+                    <div class="hidden justify-end items-center gap-4 mt-10">
                         <div class="text-center basis-4/5">
                             <p class="text-ugray text-center">We reply 24 hrs, Normal inquiries by <br> bot & important
                                 inquiries within an hr.</p>
@@ -422,8 +336,10 @@
             </div>
         </div>
     </section>
+
+
     {{-- Marquee --}}
-    <section class="marwueesec">
+    <section class="marwueesec hidden">
         <div class="marquee">
             <ul class="marquee-content">
               <li><span class="iconify text-2xl" data-icon="solar:add-circle-broken"></span></li>

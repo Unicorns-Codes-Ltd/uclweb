@@ -42,7 +42,7 @@
 
     @include('layouts.gnavigation')
 
-    <div class="min-h-screen bg-uorange/20 print:w-full">
+    <div class="min-h-screen  print:w-full">
         <!-- Page Content -->
         <main class="relative print:w-full">
             <x-auth-session-status :status="Session::get('message')" class="mt-20" id="flashpop"></x-auth-session-status>

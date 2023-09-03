@@ -5,11 +5,7 @@
             style="background-image: url({{ asset('img/course_hero.jpg') }});">
             <div class="max-w-7xl mx-auto">
                 <h2 class="text-3xl lg:text-7xl text-white font-bold uppercase text-center sm:text-left">Courses</h2>
-                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">
-                    Tech & Creativity Hub: Industrial Attachment, Software Dev, Web & Graphic Design, <br> Digital
-                    Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic & UI/UX, <br> Digital
-                    Marketing. Join Unicorns Codes!
-                </p>
+                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">We specialize in skill development courses tailored to your career aspirations. Our offerings encompass Graphic Design, UI/UX Design, Web Development, Digital Marketing, and an invaluable Industrial Attachment program. These courses are meticulously designed to equip you with practical skills and industry insights, ensuring your readiness to excel in the dynamic world of technology and design.</p>
             </div>
         </div>
     </section>

@@ -9,16 +9,14 @@
         <div class=" py-10 sm:py-24  bg-no-repeat bg-cover bg-center min-h-[300px] bg-udark/80 bg-blend-multiply" style="background-image: url({{asset('img/gallery_hero.jpg') }});">
             <div class="max-w-7xl mx-auto">
                 <h2 class="text-3xl lg:text-7xl text-white font-bold uppercase text-center sm:text-left">Gallery</h2>
-                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">
-                    Tech & Creativity Hub: Industrial Attachment, Software Dev, Web & Graphic Design, <br> Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic & UI/UX, <br> Digital Marketing. Join Unicorns Codes!
-                </p>
+                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">Explore the dynamic world of our creations. Browse through our gallery to witness the stunning designs, user-friendly interfaces, innovative websites, and successful digital campaigns that we have had the privilege to work on.</p>
             </div>
         </div>
     </section>
     <!-- =================About-Hero start======================= -->
     <!-- ==============Gallery start========== -->
     <section>
-        <div class=" bg-lgreen pt-10 pb-24 lg:pb-44 ">
+        <div class=" bg-ulorange pt-10 pb-24 lg:pb-44 ">
             <div class="max-w-7xl mx-auto   px-3 md:px-0">
                 {{-- <div class="solution_text">
                     <p class=" text-lg font-normal text-uorange  text-center ">Our Gallery</p>

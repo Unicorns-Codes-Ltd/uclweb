@@ -44,6 +44,7 @@ export default {
                 'usweet': '#F16768',
                 'udark': '#1B1A48',
                 'ugray': '#5F5F7F',
+                'ulorange': '#FFF7ED',
             },
             aspectRatio: {
                 '4/3': '4 / 3',

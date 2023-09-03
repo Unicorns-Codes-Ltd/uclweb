@@ -4,9 +4,7 @@
         <div class=" py-10 sm:py-24  bg-no-repeat bg-cover bg-center min-h-[300px] bg-udark/80 bg-blend-multiply" style="background-image: url({{asset('img/gallery_hero.jpg') }});">
             <div class="max-w-7xl mx-auto">
                 <h2 class="text-3xl lg:text-7xl text-white font-bold uppercase text-center sm:text-left">Contact</h2>
-                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">
-                    Tech & Creativity Hub: Industrial Attachment, Software Dev, Web & Graphic Design, <br> Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic & UI/UX, <br> Digital Marketing. Join Unicorns Codes!
-                </p>
+                <p class=" text-base font-normal text-center sm:text-left mt-10 text-white">We're here to connect, collaborate, and help you achieve your digital goals. <br> Whether you have questions about our services, want to enroll in our courses, <br>or are interested in partnering with us, we'd love to hear from you.</p>
             </div>
         </div>
     </section>
@@ -29,7 +27,7 @@
                             class="mt-4 sm:mt-0 flex justify-center items-center text-ublue gap-4 px-20 py-5 border border-ugray rounded-md hover:border-ublue hover:text-white hover:bg-ublue transition duration-150 ease-in-out "><span
                                 class="iconify text-xl" data-icon="mdi:email"></span>info@unicornscodes.com</a>
                     </div>
-                    <div class="hidden sm:flex justify-between items-center gap-4 mt-10">
+                    <div class="hidden justify-between items-center gap-4 mt-10">
                         <div class="text-center sm:basis-1/2">
                             <p class="text-ugray text-center">Our support team will get back to in 48-H <br>
                                 during standard business hours.</p>
@@ -86,7 +84,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="flex justify-end items-center gap-4 mt-10">
+                    <div class="hidden justify-end items-center gap-4 mt-10">
                         <div class="text-center basis-4/5">
                             <p class="text-ugray text-center">We reply 24 hrs, Normal inquiries by <br> bot & important
                                 inquiries within an hr.</p>
