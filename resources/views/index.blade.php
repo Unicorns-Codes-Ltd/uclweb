@@ -152,7 +152,7 @@
                 <div class="mt-8 sm:mt-20 px-4 sm:px-0">
                     <a href="{{ route('service') }}">
                         <button
-                            class="flex justify-start items-center gap-4 text-udark sm:px-2 pb-2 border-b-2 border-white hover:border-b-2 hover:border-udark">
+                            class="flex justify-start items-center gap-4 text-udark sm:px-2 pb-2 border-b-2 border-white hover:border-b-2 hover:border-uorange hover:text-uorange transition-all duration-150 ease-in-out">
                             View all Services
                             <span class="iconify text-xl" data-icon="solar:round-arrow-right-up-linear"></span>
                         </button>

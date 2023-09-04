@@ -5,7 +5,7 @@
 
             <div class="flex flex-col sm:flex-row justify-between sm:gap-20  px-3 sm:px-0">
                 <div class="sm:basis-1/2">
-                    <p class="text-center sm:text-left text-base font-light text-white">Tech & Creativity Hub: Industrial Attachment, Software Dev, Web & Graphic Design, Digital Marketing, IT & Computer Training. Courses: Game Dev, Web Dev, Graphic & UI/UX, Digital Marketing. Join Unicorns Codes!</p>
+                    <p class="text-center sm:text-left text-base font-light text-white"><span class="font-semibold">Tech & Creativity Hub:</span> Software Development, Web Development, Game Development, Graphic Design, Digital Marketing <span class="font-semibold">Courses:</span> Industrial Attachment, Game Development, Web Development, Graphic & UI/UX Design, Digital Marketing</p>
                     {{-- social icon --}}
                     <div class="flex justify-center sm:justify-start gap-8 px-4 mt-4">
                         <a href=""> <img src="{{ asset('images/tw.png') }}" alt="" srcset=""> </a>
