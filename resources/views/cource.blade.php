@@ -18,7 +18,7 @@
     <section>
         <div class=" bg-white pt-5 sm:pt-20 pb-52">
             <div class="max-w-7xl mx-auto">
-                <div class="grid grid-cols-12">
+                <div class="grid lg:grid-cols-12">
                     <div class="p-4 sm:p-0 col-span-2">
                         <h2 class="text-xl sm:text-3xl font-bold text-udark mb-8 text-center sm:text-left">Categories</h2>
                         <div class="shadow-md p-4 rounded-md">
@@ -45,21 +45,19 @@
                             </form>
                         </div>
                     </div>
-                    <div class="sm:col-span-10 p-4 smp-0">
-                        <div class="contents">
-                            <div class="grid sm:grid-cols-3 gap-4">
+                    <div class="lg:col-span-10 p-4 sm:p-0">
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
-                                @forelse ($courses as $item)
-                                    {{-- Indivudial course --}}
-                                    @include('layouts.inc.course')
-                                @empty
-                                    <div class="col-span-2 text-center pt-40">
-                                        <h2 class=" text-lg text-udark font-bold">No course running.
-                                        </h2>
-                                    </div>
-                                @endforelse
+                            @forelse ($courses as $item)
+                                {{-- Indivudial course --}}
+                                @include('layouts.inc.course')
+                            @empty
+                                <div class="lg:col-span-3 text-center pt-40">
+                                    <h2 class=" text-lg text-udark font-bold">No course running.
+                                    </h2>
+                                </div>
+                            @endforelse
 
-                            </div>
                         </div>
                     </div>
                 </div>
