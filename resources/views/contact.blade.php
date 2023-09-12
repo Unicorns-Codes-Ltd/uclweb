@@ -97,7 +97,8 @@
     <!-- =================Contact-form-start========== -->
     <!-- ==============Team start========== -->
     <section>
-        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d773.0793640864458!2d89.55026045886947!3d22.824461263959154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1691395779143!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1125.3737091315736!2d89.55325955079257!3d22.819835489861667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9006473ebabb%3A0xca12b21fbfbf5e10!2sUnicorns%20Codes%20Ltd.!5e0!3m2!1sen!2sbd!4v1694538167628!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </section>
     <!-- ==============Team start========== -->
 
