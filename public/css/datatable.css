@@ -98,3 +98,22 @@ table.dataTable thead th, table.dataTable thead td {
 }
 
 
+
+/* Export file buttons */
+.dt-buttons{
+    position: absolute;
+}
+
+.dt-buttons button{
+    background: #ed6326;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+.dt-buttons button:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+
