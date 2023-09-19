@@ -37,8 +37,12 @@
         <script>
             var datatablelist = $('#enrolllmentTable').DataTable({
                 dom: 'Bfrtip',
+                lengthMenu: [
+                    [ 10, 25, 50, -1 ],
+                    [ '10', '25', '50', 'All' ]
+                ],
                 buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
+                    'pageLength','copy', 'csv', 'excel', 'pdf', 'print'
                 ],
                 processing: true,
                 serverSide: true,

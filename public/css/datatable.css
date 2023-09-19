@@ -101,17 +101,51 @@ table.dataTable thead th, table.dataTable thead td {
 
 /* Export file buttons */
 .dt-buttons{
-    position: absolute;
+    display: flex;
+    gap: 10px;
 }
 
-.dt-buttons button{
+.dt-button-collection div {
+    margin-top: 35px;
+}
+.dt-button-collection div button{
     background: #ed6326;
     padding: 5px 20px;
     color: #fff;
     cursor: pointer;
     transition: all 150ms ease-in-out;
 }
-.dt-buttons button:hover{
+
+.dt-button-down-arrow{
+    transform: rotate(270deg) !important;
+}
+
+.dt-buttons button
+{
+    background: #ed6326;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+/* .dt-buttons button.buttons-copy,
+.dt-buttons button.buttons-csv,
+.dt-buttons button.buttons-excel,
+.dt-buttons button.buttons-pdf,
+.dt-buttons button.buttons-print
+{
+    background: #ed6326;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+} */
+.dt-buttons button.buttons-copy:hover,
+.dt-buttons button.buttons-csv:hover,
+.dt-buttons button.buttons-excel:hover,
+.dt-buttons button.buttons-pdf:hover,
+.dt-buttons button.buttons-print:hover
+{
     transform: scale(1.1);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
