@@ -29,7 +29,7 @@ class EnrollmentController extends Controller
 
         if ($request->ajax()) {
             return Datatables::of(
-                Enrollment::orderBy('created_at', 'asc')->get()
+                Enrollment::orderBy('id')->get()
                 )->addIndexColumn()->make(true);
         }
 
