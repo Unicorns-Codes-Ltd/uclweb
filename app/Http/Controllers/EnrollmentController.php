@@ -28,7 +28,9 @@ class EnrollmentController extends Controller
         // return $enrollment;
 
         if ($request->ajax()) {
-            return Datatables::of( Enrollment::query())->addIndexColumn()->make(true);
+            return Datatables::of(
+                Enrollment::orderBy('created_at', 'desc')->get()
+                )->addIndexColumn()->make(true);
         }
 
         return view('dashboard.enrollments.index');
