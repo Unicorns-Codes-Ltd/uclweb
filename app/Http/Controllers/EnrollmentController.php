@@ -28,9 +28,17 @@ class EnrollmentController extends Controller
         // return $enrollment;
 
         if ($request->ajax()) {
-            return Datatables::of(
-                Enrollment::orderBy('id')->get()
-                )->addIndexColumn()->make(true);
+
+
+            $enrollments = Enrollment::orderBy('id', 'desc')->get();
+            return Datatables::of($enrollments)->addIndexColumn()->make(true);
+
+            // $enrollment = Enrollment::orderBy('id', 'desc')->get();
+            // return Datatables::of($users)
+            //     ->addColumn('intro', function (User $user) {
+            //         return $user->roles->first()->name;
+            //     })
+            //     ->make(true);
         }
 
         return view('dashboard.enrollments.index');

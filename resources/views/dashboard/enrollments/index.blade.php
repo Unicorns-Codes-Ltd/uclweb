@@ -18,8 +18,8 @@
                         <th>Sl</th>
                         <th>Student Name</th>
                         <th>Total</th>
-                        <th>Total</th>
-                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
             </table>
