@@ -30,7 +30,7 @@ class EnrollmentController extends Controller
         if ($request->ajax()) {
 
 
-            $enrollments = Enrollment::orderBy('id', 'desc')->get();
+            $enrollments = Enrollment::orderBy('status', 'desc')->get();
             return Datatables::of($enrollments)->addIndexColumn()->make(true);
 
             // $enrollment = Enrollment::orderBy('id', 'desc')->get();

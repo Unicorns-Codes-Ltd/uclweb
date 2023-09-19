@@ -18,6 +18,8 @@
                         <th>Sl</th>
                         <th>Student Name</th>
                         <th>Total</th>
+                        <th>Trx ID</th>
+                        <th>Bkash Number</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
@@ -62,6 +64,14 @@
                     {
                         data: 'total',
                         name: 'total'
+                    },
+                    {
+                        data: 'trxid',
+                        name: 'trxid'
+                    },
+                    {
+                        data: 'bkash_number',
+                        name: 'bkash_number'
                     },
                     {
                         data: null,
